@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BOK PEDRO | طلب اشتراك</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="background-glow glow-blue"></div>
+    <div class="background-glow glow-red"></div>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-building-columns"></i>
+            </div>
+
+            <div>
+                <h1>BOK <span>PEDRO</span></h1>
+                <p>Premium Account Services</p>
+            </div>
+        </div>
+
+        <div class="secure">
+            <i class="fa-solid fa-shield-halved"></i>
+            خدمة موثوقة
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-badge">
+                <i class="fa-solid fa-sparkles"></i>
+                مرحباً بك في BOK PEDRO
+            </div>
+
+            <h2>
+                اختر اشتراكك
+                <br>
+                <span>وابدأ الآن</span>
+            </h2>
+
+            <p class="hero-text">
+                اختر الباقة المناسبة لك وأرسل طلبك مباشرة عبر Telegram.
+            </p>
+
+        </section>
+
+
+        <section class="plans">
+
+            <!-- يوم -->
+            <div class="plan-card">
+
+                <div class="plan-icon blue">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+
+                <div class="plan-title">
+                    <h3>اشتراك يومي</h3>
+                    <p>لمدة يوم واحد</p>
+                </div>
+
+                <div class="price">
+                    <strong>2,000</strong>
+                    <span>جنيه</span>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        صلاحية يوم كامل
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        تفعيل سريع
+                    </div>
+                </div>
+
+                <button onclick="requestPlan('اشتراك يومي', '2,000 جنيه')">
+                    <i class="fa-brands fa-telegram"></i>
+                    طلب الاشتراك
+                </button>
+
+            </div>
+
+
+            <!-- أسبوع -->
+            <div class="plan-card">
+
+                <div class="plan-icon red">
+                    <i class="fa-solid fa-calendar-week"></i>
+                </div>
+
+                <div class="plan-title">
+                    <h3>اشتراك أسبوعي</h3>
+                    <p>لمدة أسبوع</p>
+                </div>
+
+                <div class="price">
+                    <strong>15,000</strong>
+                    <span>جنيه</span>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        صلاحية 7 أيام
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        تفعيل سريع
+                    </div>
+                </div>
+
+                <button onclick="requestPlan('اشتراك أسبوعي', '15,000 جنيه')">
+                    <i class="fa-brands fa-telegram"></i>
+                    طلب الاشتراك
+                </button>
+
+            </div>
+
+
+            <!-- شهر -->
+            <div class="plan-card featured">
+
+                <div class="popular">
+                    الأكثر طلباً
+                </div>
+
+                <div class="plan-icon blue">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+
+                <div class="plan-title">
+                    <h3>اشتراك شهري</h3>
+                    <p>لمدة شهر كامل</p>
+                </div>
+
+                <div class="price">
+                    <strong>50,000</strong>
+                    <span>جنيه</span>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        صلاحية شهر كامل
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        تفعيل سريع
+                    </div>
+                </div>
+
+                <button onclick="requestPlan('اشتراك شهري', '50,000 جنيه')">
+                    <i class="fa-brands fa-telegram"></i>
+                    طلب الاشتراك
+                </button>
+
+            </div>
+
+
+            <!-- 3 أشهر -->
+            <div class="plan-card">
+
+                <div class="plan-icon red">
+                    <i class="fa-solid fa-gem"></i>
+                </div>
+
+                <div class="plan-title">
+                    <h3>اشتراك 3 أشهر</h3>
+                    <p>لمدة ثلاثة أشهر</p>
+                </div>
+
+                <div class="price">
+                    <strong>150,000</strong>
+                    <span>جنيه</span>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        صلاحية 3 أشهر
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        تفعيل سريع
+                    </div>
+                </div>
+
+                <button onclick="requestPlan('اشتراك 3 أشهر', '150,000 جنيه')">
+                    <i class="fa-brands fa-telegram"></i>
+                    طلب الاشتراك
+                </button>
+
+            </div>
+
+
+            <!-- سنة -->
+            <div class="plan-card yearly">
+
+                <div class="best">
+                    أفضل قيمة
+                </div>
+
+                <div class="plan-icon blue">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+
+                <div class="plan-title">
+                    <h3>اشتراك سنوي</h3>
+                    <p>لمدة سنة كاملة</p>
+                </div>
+
+                <div class="price">
+                    <strong>300,000</strong>
+                    <span>جنيه</span>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        صلاحية سنة كاملة
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        أفضل سعر
+                    </div>
+                </div>
+
+                <button onclick="requestPlan('اشتراك سنوي', '300,000 جنيه')">
+                    <i class="fa-brands fa-telegram"></i>
+                    طلب الاشتراك
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="telegram-box">
+
+            <div class="telegram-icon">
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+
+            <div>
+                <h3>تريد فتح حساب؟</h3>
+
+                <p>
+                    اضغط على زر Telegram لإرسال طلبك مباشرة.
+                </p>
+            </div>
+
+            <a href="https://t.me/PEDRO_DARKk"
+               target="_blank"
+               class="telegram-button">
+
+                <i class="fa-brands fa-telegram"></i>
+                تواصل الآن
+            </a>
+
+        </section>
+
+
+        <section class="info">
+
+            <div>
+                <i class="fa-solid fa-bolt"></i>
+                <span>تفعيل سريع</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <span>خدمة آمنة</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <span>دعم عبر Telegram</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            BOK <span>PEDRO</span>
+        </div>
+
+        <p>
+            © 2026 BOK PEDRO — جميع الحقوق محفوظة
+        </p>
+
+        <a href="https://t.me/PEDRO_DARKk" target="_blank">
+            <i class="fa-brands fa-telegram"></i>
+            @PEDRO_DARKk
+        </a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+                  </html>
